@@ -1,0 +1,1 @@
+// Manages the state of the shopping cart across the app.

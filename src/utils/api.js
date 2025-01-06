@@ -1,0 +1,1 @@
+// Handles calls to your backend (e.g., fetching products).

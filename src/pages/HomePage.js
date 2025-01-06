@@ -1,0 +1,1 @@
+// Code for the homepage (e.g., banner, featured products).

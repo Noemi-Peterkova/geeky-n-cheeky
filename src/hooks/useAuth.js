@@ -1,0 +1,1 @@
+// Custom hook to manage user authentication state.

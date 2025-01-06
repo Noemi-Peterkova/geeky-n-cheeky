@@ -1,0 +1,1 @@
+//Middleware functions (e.g., authentication checks).
