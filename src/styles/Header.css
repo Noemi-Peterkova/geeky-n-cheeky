@@ -1,0 +1,86 @@
+/* Header.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5dc; /* Beige background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-item {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4a4a; /* Neutral color */
+    transition: color 0.3s;
+}
+
+.navbar-item:hover {
+    color: #6a1b9a; /* Purple */
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    color: #4a4a4a;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #6a1b9a; /* Purple */
+}
+
+.hamburger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #4a4a4a;
+    display: none; /* Hidden for larger screens */
+}
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-links {
+display: none;
+    }
+
+    .hamburger-menu {
+display: block;
+    }
+}
