@@ -46,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Ecommerce website for Geeky N' Cheeky Designs",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

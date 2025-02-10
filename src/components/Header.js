@@ -10,7 +10,7 @@ const Header = () => {
     <header className="navbar">
       <div className="navbar-logo">
         <Link to="/">
-          <img src="../assets/Logo.png" alt="Geeky N Cheeky Logo" />
+          <img src="/assets/Logo.png" alt="Geeky N Cheeky Logo" />
         </Link>
       </div>
       <nav className="navbar-links">
