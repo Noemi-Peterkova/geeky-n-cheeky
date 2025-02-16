@@ -1,1 +1,3 @@
 #add sensitive files like .env here
+.env
+node_modules
